@@ -1,0 +1,320 @@
+/* About Page Container */
+.about-container {
+  width: 100vw; /* Full viewport width */
+  max-width: 100%; /* Ensures it never exceeds the screen width */
+  margin: 0 ; /* Center alignment */
+  padding: 20px; /* Adds some spacing */
+  background: linear-gradient(to right, #d3d3d3, #f1f1f1); 
+}
+
+
+
+  
+  /* Heading */
+  .about-heading {
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: #d9534f; /* Red color for impact */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  .about-heading span {
+    color: #ff9800; /* Orange color for contrast */
+  }
+  
+  .about-subheading {
+    font-size: 1.5rem;
+    color: #222;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+  
+  /* Description Text */
+  .about-text {
+    font-size: 1.2rem;
+    color: #555;
+    font-weight: 400;
+    max-width: 700px;
+    margin: 10px auto;
+  }
+  
+  /* Image Styling */
+  .about-image {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Specialties List */
+  .about-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .about-list li {
+    font-size: 1.1rem;
+    color: #333;
+    font-weight: 500;
+    padding: 5px 0;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .about-list li:hover {
+    color: #d9534f;
+    font-weight: bold;
+    transform: scale(1.05);
+  }
+  
+  /* Mission & Vision Cards */
+  .about-card {
+    background: #f8f9fa;
+    border: none;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-card h4 {
+    color: #d9534f;
+    font-weight: bold;
+  }
+  
+  .about-card p {
+    color: #555;
+  }
+  
+
+
+
+
+
+
+
+
+/* =============== */
+/* Certification Section */
+.certification-section {
+  text-align: center;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  border-radius: 20px;
+  background: #f8f9fa;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Title Styling */
+.certification-title {
+  font-size: 34px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+  padding-bottom: 10px;
+  color: #343a40;
+}
+
+/* Underline Effect */
+.certification-title::after {
+  content: "";
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(to right, #6c757d, #adb5bd);
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 5px;
+}
+
+/* Wrapper for Image & Text */
+.certification-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 85%;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  
+  /* Border */
+  /* border: 1px solid #333; */
+
+  /* Shadow Effect */
+  box-shadow: 5px 5px 15px rgba(0.2, 0.2, 0.5, 0.5); /* Adds a soft shadow */
+  transition: all 0.3s ease-in-out; /* Smooth transition effect */
+}
+
+/* Hover Effect */
+.certification-wrapper:hover {
+  box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.4); /* Slightly stronger shadow on hover */
+}
+
+
+/* Certification Image */
+.certification-image {
+  max-height: 250px;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  /* border: 1px #333 solid; */
+}
+
+/* Description */
+.certification-text {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #495057;
+  max-width: 90%;
+  text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .certification-title {
+    font-size: 28px;
+  }
+  .certification-wrapper {
+    width: 95%;
+    padding: 15px;
+  }
+  .certification-text {
+    font-size: 16px;
+  }
+}
+
+
+/* Testimonial */
+
+
+
+
+/* General Styling */
+.about-container {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.about-heading {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.about-heading span {
+  color: #ff5722;
+}
+
+.about-subheading {
+  font-size: 20px;
+  font-weight: bold;
+  color: #666;
+}
+
+.about-text {
+  font-size: 18px;
+  max-width: 800px;
+  margin: auto;
+  color: #333;
+}
+
+/* Certification Section */
+.certification-section {
+  margin-top: 50px;
+}
+
+.certification-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.certification-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.certification-image {
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.certification-text {
+  font-size: 18px;
+  max-width: 500px;
+  text-align: left;
+}
+
+/* Mission & Vision Cards */
+.about-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.about-card:hover {
+  transform: scale(1.05);
+}
+
+/* Testimonial Section */
+
+
+
+
+.testimonials-section {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.testimonials-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.testimonials-carousel {
+  max-width: 600px;
+  margin: auto;
+}
+
+.testimonial-card {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.testimonial-text {
+  font-size: 18px;
+  font-style: italic;
+  color: #333;
+}
+
+.testimonial-author {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.quote-icon {
+  font-size: 24px;
+  color: #ff9800;
+  margin: 5px;
+}
